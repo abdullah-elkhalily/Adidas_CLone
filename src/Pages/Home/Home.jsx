@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import ProductCard from '../../components/ProductCard/ProductCard.jsx';
+// import ProductCard from '../../components/ProductCard/ProductCard.jsx';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -10,6 +10,7 @@ import './AdidasBtn.css';
 import './Home.css';
 import './HomeRWD.css';
 import { useNavigate } from 'react-router-dom';
+import ProductCard from '../../Components/ProductCard/ProductCard.jsx';
 
 
 
