@@ -1,6 +1,6 @@
 import React from 'react';
 import './Loading.css'; // Import the CSS file for styling the spinner
-import OnlineLoading from '../OnlineLoading/OnlineLoading';
+import OnlineLoading from '../OnlineLoadingAd/OnlineLoading';
 import { useSelector } from 'react-redux';
 
 

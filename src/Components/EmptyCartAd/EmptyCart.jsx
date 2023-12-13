@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Empty.css"
 import { useNavigate } from 'react-router-dom';
-export const clearEmptyCart = () => {
+export  const EmptyCart = () => {
 
   const Navigate =useNavigate()
   return (

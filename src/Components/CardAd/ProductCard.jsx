@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import { addToWishList } from '../../Store/Slices/wishlistSlice';
 import { heartIconPath } from '../../config/config';
-import Slickslide from '../Slickslide/Slickslide';
-import WishlistAlert from '../WishListAlert/WishListAlert';
+import Slickslide from '../SlickslideAd/Slickslide';
+import WishlistAlert from '../WishListAlertAd/WishListAlert';
 import './ProductCard.css';
 
 
