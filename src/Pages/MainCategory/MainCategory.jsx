@@ -11,7 +11,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import ProductCard from "../../components/productCardAd/ProductCard.jsx";
+import ProductCard from "../../Components/CardAd/ProductCard";
+
 export default function MainCategory() {
   const { catName } = useParams();
   const navigate = useNavigate();

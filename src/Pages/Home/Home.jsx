@@ -10,7 +10,7 @@ import './AdidasBtn.css';
 import './Home.css';
 import './HomeRWD.css';
 import { useNavigate } from 'react-router-dom';
-import ProductCard from '../../Components/ProductCardAd/ProductCard.jsx';
+import ProductCard from '../../Components/CardAd/ProductCard.jsx';
 
 
 

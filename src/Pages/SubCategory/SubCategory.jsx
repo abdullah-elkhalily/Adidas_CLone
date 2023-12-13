@@ -3,12 +3,13 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { GETallProducts } from "../../Store/Slices/allProducts";
 import { getWishListFirestore } from '../../Store/Slices/wishlistSlice';
-import ProductCard from '../../components/ProductCardAd/ProductCard.jsx';
+
 import { icons } from '../../config/config';
 import { getWishlistByEmail } from '../WishList/firebasewishList';
 import { FilterMenu } from './../../Components/FilterMenuAd/FilterMenu.jsx';
 import Loading from './../../Components/LoadingAd/Loading.jsx';
 import './SubCategory.css';
+import ProductCard from '../../Components/CardAd/ProductCard.jsx';
 
 
 
