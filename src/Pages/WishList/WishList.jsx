@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import WishlistEmpty from "../../Components/WishListEmpty/WishListEmpty";
 import { GETallProducts } from "../../Store/Slices/allProducts";
 import { addToWishList } from "../../Store/Slices/wishlistSlice";
-import "../../components/ProductCard/ProductCard";
+import "../../components/ProductCard/ProductCard.jsx";
 import WishlistAlert from "../../components/WishListAlert/WishListAlert";
 import { heartIconPath } from "../../config/config";
 import "./Wishlist.css";
