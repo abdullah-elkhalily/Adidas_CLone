@@ -5,11 +5,6 @@ export const EmptyCart = () => {
 
   const Navigate =useNavigate()
   return (
-
-
-
-
-
     <>
     <div className=" container   empty text-end p-3 ">
         <h2 >عربة المشتريات فارغة
