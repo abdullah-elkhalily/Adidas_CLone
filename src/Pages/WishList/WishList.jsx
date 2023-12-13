@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import WishlistEmpty from "../../Components/WishListEmpty/WishListEmpty";
+import WishlistEmpty from "../../Components/WishListEmpty/WishListEmpty.jsx";
 import { GETallProducts } from "../../Store/Slices/allProducts";
 import { addToWishList } from "../../Store/Slices/wishlistSlice";
 import "../../components/ProductCard/ProductCard.jsx";
-import WishlistAlert from "../../components/WishListAlert/WishListAlert";
+import WishlistAlert from "../../components/WishListAlert/WishListAlert.jsx";
 import { heartIconPath } from "../../config/config";
 import "./Wishlist.css";
 

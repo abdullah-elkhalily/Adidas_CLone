@@ -9,7 +9,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
-// import { EmptyCart } from "../../Components/EmptyCart/EmptyCart";
+import { EmptyCart } from "../../Components/EmptyCart/EmptyCart.jsx";
 export default function Cart() {
 
   const [totalPrisce, setTotalPrice] = useState(0);
@@ -144,7 +144,7 @@ const handleUpdateQty = (id, size, qty) => {
          
         </Modal.Footer>
       </Modal>
-      {cart.length == 0 || allProducts.length == 0 ? ""
+      {cart.length == 0 || allProducts.length == 0 ? <EmptyCart/>
         :
         <>
           <div className="padge  row justify-content-end text-end ">

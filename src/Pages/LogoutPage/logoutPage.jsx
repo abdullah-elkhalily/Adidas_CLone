@@ -4,7 +4,7 @@ import { auth } from "../firebase";
 import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 
-import OnlineLoading from "../../Components/OnlineLoading/OnlineLoading";
+// import OnlineLoading from "../../Components/OnlineLoading/OnlineLoading";
 
 export const LogoutPage = () => {
   const [value, setvalue] = useState("");
