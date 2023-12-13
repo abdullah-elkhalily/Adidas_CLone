@@ -9,7 +9,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
-import { EmptyCart } from "../../Components/EmptyCart/EmptyCart.jsx";
+import { EmptyCart } from "../../Components/EmptyCartAd/EmptyCart.jsx";
 export default function Cart() {
 
   const [totalPrisce, setTotalPrice] = useState(0);

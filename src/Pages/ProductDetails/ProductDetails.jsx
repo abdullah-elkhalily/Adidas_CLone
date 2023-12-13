@@ -4,16 +4,14 @@ import ImageZoom from "react-image-zooom";
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-// import Slickslide from '../../Components/Slickslide/Slickslide';
+import Slickslide from '../../Components/SlickslideAd/Slickslide';
 import { GETallProducts } from "../../Store/Slices/allProducts";
 import { icons,heartIconPath } from '../../config/config';
 import CartMenu from './../../Components/CartMenu/CartMenu';
 import { addToCart } from './../../Store/Slices/cartSlice';
-// import WishlistAlert from '../../Components/WishListAlert/WishListAlert.jsx';
+import WishlistAlert from '../../Components/WishListAlertAd/WishListAlert.jsx';
 import { addToWishList } from '../../Store/Slices/wishlistSlice';
 import './ProductDetails.css';
-import Slickslide from '../../components/Slickslide/Slickslide.jsx';
-import WishlistAlert from '../../components/WishListAlert/WishListAlert.jsx';
 //__________________________
 
 const ProductDetails = () => {

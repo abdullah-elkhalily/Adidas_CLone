@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import OnlineLoading from '../../Components/OnlineLoading/OnlineLoading.jsx'
+import OnlineLoading from '../../Components/OnlineLoadingAd/OnlineLoading.jsx'
 import { LogoutPage } from '../LogoutPage/logoutPage';
 
 export default function Profile() {
